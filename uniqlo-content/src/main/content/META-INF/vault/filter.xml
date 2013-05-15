@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/content/uniqlo"/>
+    <filter root="/content/dam/uniqlo">
+        <!-- exclude pattern=".*/renditions.*"/ -->
+    </filter>
+    <filter root="/etc/designs/uniqlo/jcr:content">
+        <include pattern="/etc/designs/uniqlo/jcr:content(/.*)+"/>
+    </filter>
+</workspaceFilter>

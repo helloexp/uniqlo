@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/apps/uniqlo">
+        <exclude pattern="/apps/uniqlo/install.*"/>
+        <exclude pattern="/apps/uniqlo/runmodes.*"/>
+    </filter>
+    <filter root="/etc/clientlibs/uniqlo"/>
+	<filter root="/etc/designs/uniqlo">
+        <exclude pattern="/etc/designs/uniqlo/jcr:content.*"/>
+    </filter>
+</workspaceFilter>
